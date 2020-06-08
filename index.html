@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>Image Filter</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+<script src="script.js"></script>
+<h1>Image Filter</h1>
+
+<canvas id="can1">
+</canvas>
+<br>
+<b>Selecet Image :</b> <input id="fg" type="file" multiple="false" accept="image/*" onchange=upload1()>
+<br>
+<input id="gray" class="btn" type="button" value="GrayScal" onclick=doGray() >
+<input id="red" class="btn" type="button" value="Red" onclick=doRed() >
+<input id="prpl" class="btn" type="button" value="Purple" onclick=doPurple() >
+<input id="rb" class="btn" type="button" value="RainBow" onclick=doRBow() >
+<input id="blur" class="btn" type="button" value="Blur" onclick=doBlur() >
+<br>
+<input id="rst" class="btn" type="button" value="Reset" onclick=reset() >
+<input id="clr" class="btn" type="button" value="Clear" onclick=cler() >
+</body>
+</html>
